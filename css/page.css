@@ -21,3 +21,7 @@ html {
 .button.is-white.is-outlined i {
   font-size: 30px;
 }
+
+.links {
+  margin-top: -1.75rem;
+}
