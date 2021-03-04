@@ -1,0 +1,23 @@
+html {
+  background-color: #000000;
+}
+
+.button, .name {
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+.button.is-white.is-outlined {
+  background-color: transparent;
+  transition: color 0.15s, border-color 0.15s, padding 0.15s;
+}
+
+.button.is-white.is-outlined:hover {
+  background-color: transparent;
+  color: #f14668;
+  border-color: #f14668;
+}
+
+.button.is-white.is-outlined i {
+  font-size: 30px;
+}
